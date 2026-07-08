@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        2A0000010000000000000001 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000001 /* Main.swift */; };
+        2A0000010000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000002 /* AppDelegate.swift */; };
+        2A0000010000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000003 /* AppState.swift */; };
+        2A0000010000000000000004 /* CaffeineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000004 /* CaffeineController.swift */; };
+        2A0000010000000000000005 /* LoginItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000005 /* LoginItemController.swift */; };
+        2A0000010000000000000006 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000006 /* StatusBarController.swift */; };
+        2A0000010000000000000007 /* MenuBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000007 /* MenuBarIcon.swift */; };
+        2A0000010000000000000008 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000008 /* L10n.swift */; };
+        2A0000010000000000000011 /* Espresso.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000011 /* Espresso.icns */; };
+        2A0000010000000000000014 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000014 /* en.lproj */; };
+        2A0000010000000000000015 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000015 /* ko.lproj */; };
+        2A0000010000000000000021 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000021 /* AppKit.framework */; };
+        2A0000010000000000000022 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000022 /* IOKit.framework */; };
+        2A0000010000000000000023 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0001010000000000000023 /* ServiceManagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        2A0001010000000000000001 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+        2A0001010000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        2A0001010000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+        2A0001010000000000000004 /* CaffeineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineController.swift; sourceTree = "<group>"; };
+        2A0001010000000000000005 /* LoginItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemController.swift; sourceTree = "<group>"; };
+        2A0001010000000000000006 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+        2A0001010000000000000007 /* MenuBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIcon.swift; sourceTree = "<group>"; };
+        2A0001010000000000000008 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+        2A0001010000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        2A0001010000000000000011 /* Espresso.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Espresso.icns; sourceTree = "<group>"; };
+        2A0001010000000000000012 /* Espresso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Espresso.entitlements; sourceTree = "<group>"; };
+        2A0001010000000000000013 /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
+        2A0001010000000000000014 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+        2A0001010000000000000015 /* ko.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ko.lproj; sourceTree = "<group>"; };
+        2A0001010000000000000021 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+        2A0001010000000000000022 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+        2A0001010000000000000023 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+        2A0001010000000000000031 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+        2A0001010000000000000032 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+        2A0001010000000000000033 /* build_app.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_app.sh; sourceTree = "<group>"; };
+        2A0001010000000000000034 /* GenerateIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateIcon.swift; sourceTree = "<group>"; };
+        2A0001010000000000000035 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+        2A0001010000000000000036 /* Signing.local.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.local.xcconfig.example; sourceTree = "<group>"; };
+        2A0001010000000000000041 /* Espresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Espresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        2A0002010000000000000001 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                2A0000010000000000000021 /* AppKit.framework in Frameworks */,
+                2A0000010000000000000022 /* IOKit.framework in Frameworks */,
+                2A0000010000000000000023 /* ServiceManagement.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        2A0003010000000000000001 = {
+            isa = PBXGroup;
+            children = (
+                2A0003010000000000000002 /* Sources */,
+                2A0003010000000000000003 /* Resources */,
+                2A0003010000000000000004 /* Frameworks */,
+                2A0003010000000000000008 /* Configs */,
+                2A0003010000000000000005 /* Scripts */,
+                2A0003010000000000000006 /* Tools */,
+                2A0001010000000000000031 /* Package.swift */,
+                2A0001010000000000000032 /* README.md */,
+                2A0003010000000000000007 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000002 /* Sources */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000001 /* Main.swift */,
+                2A0001010000000000000002 /* AppDelegate.swift */,
+                2A0001010000000000000003 /* AppState.swift */,
+                2A0001010000000000000004 /* CaffeineController.swift */,
+                2A0001010000000000000005 /* LoginItemController.swift */,
+                2A0001010000000000000006 /* StatusBarController.swift */,
+                2A0001010000000000000007 /* MenuBarIcon.swift */,
+                2A0001010000000000000008 /* L10n.swift */,
+            );
+            path = Sources/Espresso;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000003 /* Resources */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000010 /* Info.plist */,
+                2A0001010000000000000011 /* Espresso.icns */,
+                2A0001010000000000000012 /* Espresso.entitlements */,
+                2A0001010000000000000013 /* AppIcon.iconset */,
+                2A0001010000000000000014 /* en.lproj */,
+                2A0001010000000000000015 /* ko.lproj */,
+            );
+            path = Resources;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000004 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000021 /* AppKit.framework */,
+                2A0001010000000000000022 /* IOKit.framework */,
+                2A0001010000000000000023 /* ServiceManagement.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000005 /* Scripts */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000033 /* build_app.sh */,
+            );
+            path = Scripts;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000006 /* Tools */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000034 /* GenerateIcon.swift */,
+            );
+            path = Tools;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000008 /* Configs */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000035 /* Signing.xcconfig */,
+                2A0001010000000000000036 /* Signing.local.xcconfig.example */,
+            );
+            path = Configs;
+            sourceTree = "<group>";
+        };
+        2A0003010000000000000007 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                2A0001010000000000000041 /* Espresso.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        2A0004010000000000000001 /* espresso */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 2A0007010000000000000002 /* Build configuration list for PBXNativeTarget "espresso" */;
+            buildPhases = (
+                2A0006010000000000000001 /* Sources */,
+                2A0002010000000000000001 /* Frameworks */,
+                2A0005010000000000000001 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = espresso;
+            productName = Espresso;
+            productReference = 2A0001010000000000000041 /* Espresso.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        2A0008010000000000000001 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 2660;
+                LastUpgradeCheck = 2660;
+                TargetAttributes = {
+                    2A0004010000000000000001 = {
+                        CreatedOnToolsVersion = 26.6;
+                        ProvisioningStyle = Manual;
+                    };
+                };
+            };
+            buildConfigurationList = 2A0007010000000000000001 /* Build configuration list for PBXProject "espresso" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 2A0003010000000000000001;
+            productRefGroup = 2A0003010000000000000007 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                2A0004010000000000000001 /* espresso */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        2A0005010000000000000001 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                2A0000010000000000000011 /* Espresso.icns in Resources */,
+                2A0000010000000000000014 /* en.lproj in Resources */,
+                2A0000010000000000000015 /* ko.lproj in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        2A0006010000000000000001 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                2A0000010000000000000001 /* Main.swift in Sources */,
+                2A0000010000000000000002 /* AppDelegate.swift in Sources */,
+                2A0000010000000000000003 /* AppState.swift in Sources */,
+                2A0000010000000000000004 /* CaffeineController.swift in Sources */,
+                2A0000010000000000000005 /* LoginItemController.swift in Sources */,
+                2A0000010000000000000006 /* StatusBarController.swift in Sources */,
+                2A0000010000000000000007 /* MenuBarIcon.swift in Sources */,
+                2A0000010000000000000008 /* L10n.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        2A0009010000000000000001 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = macosx;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                SWIFT_VERSION = 6.0;
+            };
+            name = Debug;
+        };
+        2A0009010000000000000002 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                SDKROOT = macosx;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                SWIFT_VERSION = 6.0;
+            };
+            name = Release;
+        };
+        2A0009010000000000000003 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 2A0001010000000000000035 /* Signing.xcconfig */;
+            buildSettings = {
+                CODE_SIGN_ENTITLEMENTS = Resources/Espresso.entitlements;
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+                CODE_SIGN_STYLE = Manual;
+                COMBINE_HIDPI_IMAGES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                ENABLE_HARDENED_RUNTIME = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Resources/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/../Frameworks",
+                );
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_NAME = Espresso;
+                SWIFT_VERSION = 6.0;
+            };
+            name = Debug;
+        };
+        2A0009010000000000000004 /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 2A0001010000000000000035 /* Signing.xcconfig */;
+            buildSettings = {
+                CODE_SIGN_ENTITLEMENTS = Resources/Espresso.entitlements;
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+                CODE_SIGN_STYLE = Manual;
+                COMBINE_HIDPI_IMAGES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                ENABLE_HARDENED_RUNTIME = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Resources/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/../Frameworks",
+                );
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_NAME = Espresso;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_VERSION = 6.0;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        2A0007010000000000000001 /* Build configuration list for PBXProject "espresso" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                2A0009010000000000000001 /* Debug */,
+                2A0009010000000000000002 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        2A0007010000000000000002 /* Build configuration list for PBXNativeTarget "espresso" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                2A0009010000000000000003 /* Debug */,
+                2A0009010000000000000004 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = 2A0008010000000000000001 /* Project object */;
+}

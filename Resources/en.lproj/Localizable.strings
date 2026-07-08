@@ -1,0 +1,11 @@
+"app.name" = "espresso";
+"menu.status.enabled" = "Status: Enabled";
+"menu.status.disabled" = "Status: Disabled";
+"menu.action.enable" = "Enable";
+"menu.action.disable" = "Disable";
+"menu.launchAtLogin" = "Launch at Login";
+"menu.quit" = "Quit espresso";
+"message.approveLaunchAtLogin" = "Approve launch at login in System Settings.";
+"error.caffeine.enableFailed" = "Could not keep this Mac awake. IOKit returned %d.";
+"error.caffeine.releaseFailed" = "Could not release the power assertion. IOKit returned %d.";
+"error.loginItem.unavailable" = "Launch at login requires macOS 13 or later.";
