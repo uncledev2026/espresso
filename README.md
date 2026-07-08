@@ -26,6 +26,12 @@ Xcode 프로젝트도 바로 열 수 있습니다.
 open espresso.xcodeproj
 ```
 
+CLI에서 Xcode 프로젝트를 빌드할 때는 macOS destination을 명시하면 Xcode가 대상 아키텍처를 자동 선택하며 출력하는 destination 경고를 피할 수 있습니다.
+
+```sh
+xcodebuild -project espresso.xcodeproj -scheme espresso -configuration Release -destination 'platform=macOS,arch=arm64' -derivedDataPath build/XcodeDerivedData build
+```
+
 로컬 테스트용 앱은 App Sandbox entitlement를 포함해 ad-hoc 서명됩니다. Mac App Store 제출 전에는 `Resources/Info.plist`의 `com.example.espresso`를 실제 등록한 번들 식별자로 바꾸고, Apple 배포 인증서와 프로비저닝 프로파일로 서명 및 아카이브해야 합니다.
 
 ## 로컬 서명 설정
