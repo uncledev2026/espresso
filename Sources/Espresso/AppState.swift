@@ -11,6 +11,7 @@ final class AppState {
 
     private(set) var isCaffeineEnabled = false
     private(set) var isLaunchAtLoginEnabled = false
+    private(set) var launchAtLoginStatus = LoginItemStatus.disabled
     private(set) var message: String?
 
     init(defaults: UserDefaults = .standard) {
@@ -41,6 +42,7 @@ final class AppState {
     }
 
     func toggleLaunchAtLogin() {
+        refreshLaunchAtLoginStatus()
         setLaunchAtLoginEnabled(!isLaunchAtLoginEnabled)
     }
 
@@ -61,10 +63,22 @@ final class AppState {
     }
 
     func refreshLaunchAtLoginStatus() {
-        isLaunchAtLoginEnabled = LoginItemController.status == .enabled
+        launchAtLoginStatus = LoginItemController.status
+        isLaunchAtLoginEnabled = launchAtLoginStatus == .enabled || launchAtLoginStatus == .requiresApproval
+        refreshLaunchAtLoginMessage()
     }
 
     func shutdown() {
         setCaffeineEnabled(false, persist: false)
+    }
+
+    private func refreshLaunchAtLoginMessage() {
+        let approvalMessage = L10n.string("message.approveLaunchAtLogin")
+
+        if launchAtLoginStatus == .requiresApproval {
+            message = approvalMessage
+        } else if message == approvalMessage {
+            message = nil
+        }
     }
 }

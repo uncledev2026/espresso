@@ -62,11 +62,11 @@ final class CaffeineController {
         }
 
         let result = IOPMAssertionRelease(assertionID)
-        assertionID = 0
-        isEnabled = false
-
         guard result == kIOReturnSuccess else {
             throw CaffeineControllerError.releaseFailed(result)
         }
+
+        assertionID = 0
+        isEnabled = false
     }
 }

@@ -30,6 +30,8 @@ final class StatusBarController: NSObject {
     }
 
     private func configureMenu() {
+        menu.delegate = self
+
         statusMenuItem.isEnabled = false
         menu.addItem(statusMenuItem)
 
@@ -107,5 +109,11 @@ final class StatusBarController: NSObject {
 
         button.image = MenuBarIcon.makeImage(isEnabled: appState.isCaffeineEnabled)
         button.title = ""
+    }
+}
+
+extension StatusBarController: NSMenuDelegate {
+    func menuWillOpen(_ menu: NSMenu) {
+        refresh()
     }
 }
