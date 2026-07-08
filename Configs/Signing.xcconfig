@@ -1,0 +1,7 @@
+// Git에 올라가는 기본 서명 설정입니다.
+// 개인 또는 팀별 값은 Signing.local.xcconfig에서 덮어씁니다.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.example.espresso
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"
